@@ -1,0 +1,19 @@
+.dice-btn {
+  background-color: hsl(150, 100%, 66%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 0;
+  bottom: -45px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  transform: translateY(-50%);
+  width: fit-content;
+  height: fit-content;
+}
+
+.dice-btn:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}

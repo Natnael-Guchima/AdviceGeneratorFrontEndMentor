@@ -1,0 +1,41 @@
+.app-container {
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: "Barlow Condensed", sans-serif;
+  justify-content: center;
+  min-height: 200px;
+  padding: 10px;
+  position: relative;
+  width: 60ch;
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.error-msg {
+  font-size: 30px;
+  color: hsl(193, 38%, 86%);
+}
